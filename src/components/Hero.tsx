@@ -13,7 +13,7 @@ export function Hero() {
         fetchPriority="high"
       />
       <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(44,30,20,0.7) 0%, rgba(44,30,20,0.5) 40%, rgba(44,30,20,0.75) 100%)" }} />
-      <Woodgrain seed={7} opacity={0.25} />
+      {/* Woodgrain SVG overlay removed — let the photo be clean */}
       <div className="absolute bottom-0 left-0 right-0 plankline" />
 
       <div className="relative mx-auto max-w-6xl px-5 pt-20 pb-24 md:pt-28 md:pb-32">
