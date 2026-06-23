@@ -4,8 +4,15 @@ import { Woodgrain } from "./Woodgrain";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-walnut text-white">
-      <div className="absolute inset-0" style={{ background: "radial-gradient(120% 90% at 18% 0%, #6B4226 0%, #4A2E1A 45%, #2C1E14 78%)" }} />
-      <Woodgrain seed={7} opacity={0.5} />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=1920&h=1080&fit=crop&crop=center"
+        alt="Beautiful hardwood floor in a modern living room"
+        className="absolute inset-0 w-full h-full object-cover"
+        fetchPriority="high"
+      />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(44,30,20,0.85) 0%, rgba(44,30,20,0.65) 40%, rgba(44,30,20,0.8) 100%)" }} />
+      <Woodgrain seed={7} opacity={0.25} />
       <div className="absolute bottom-0 left-0 right-0 plankline" />
 
       <div className="relative mx-auto max-w-6xl px-5 pt-20 pb-24 md:pt-28 md:pb-32">
