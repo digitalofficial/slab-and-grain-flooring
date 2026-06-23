@@ -7,8 +7,8 @@ export function Hero() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&h=1080&fit=crop&crop=center"
-        alt="Beautiful herringbone hardwood floor in a modern home"
+        src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1920&h=1080&fit=crop&crop=bottom"
+        alt="Modern kitchen with beautiful hardwood flooring"
         className="absolute inset-0 w-full h-full object-cover"
         fetchPriority="high"
       />
