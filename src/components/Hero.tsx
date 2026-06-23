@@ -5,13 +5,14 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-walnut text-white">
       {/* eslint-disable-next-line @next/next/no-img-element */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=1920&h=1080&fit=crop&crop=center"
-        alt="Beautiful hardwood floor in a modern living room"
+        src="https://images.unsplash.com/photo-1615529328331-f8917597711f?w=1920&h=1080&fit=crop&crop=center"
+        alt="Modern living room with beautiful hardwood floors and natural light"
         className="absolute inset-0 w-full h-full object-cover"
         fetchPriority="high"
       />
-      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(44,30,20,0.85) 0%, rgba(44,30,20,0.65) 40%, rgba(44,30,20,0.8) 100%)" }} />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(44,30,20,0.7) 0%, rgba(44,30,20,0.5) 40%, rgba(44,30,20,0.75) 100%)" }} />
       <Woodgrain seed={7} opacity={0.25} />
       <div className="absolute bottom-0 left-0 right-0 plankline" />
 
